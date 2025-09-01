@@ -1,0 +1,48 @@
+/* Base editor styling */
+.CodeMirror {
+  height: 400px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+  line-height: 1.5;
+}
+
+/* Theme adjustments (since tu dracula use kar raha hai) */
+.cm-s-dracula {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
+}
+
+/* Active line highlight */
+.CodeMirror-activeline-background {
+  background: #44475a33 !important;
+}
+
+/* Gutter (line numbers) */
+.CodeMirror-gutters {
+  background: #282a36;
+  border-right: 1px solid #444;
+  color: #6272a4;
+}
+
+/* Scrollbar styling */
+.CodeMirror-scrollbar-filler,
+.CodeMirror-gutter-filler {
+  background-color: transparent !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #282a36;
+}
+::-webkit-scrollbar-thumb {
+  background: #44475a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6272a4;
+}
